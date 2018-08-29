@@ -74,9 +74,13 @@ ul li:first-child{
 → pela o primeiro filho `li` dentro de `ul`
 
 `first-child` → primeiro filho
+
 `last-child` → ultimo
+
 `nth-child` → nono
+
 `first-child(even)` → alterna
+
 `first-line` → toda a primeira linha
 
 ### After / Before:
