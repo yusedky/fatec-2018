@@ -7,10 +7,29 @@
 	<title>PPSI IIa: seletores avançados</title>
 
 	<style type="text/css">
+	
 
 	body { font-family: "Courier New", Courier, monospace; font-size: 300%; background-color: #000; color: #0f3; }
 	
 	h1 { display:none; }
+	
+	body h1 {
+	/* via seletor descendente */
+	display: block;
+	}
+	
+	body > h1 {
+	/* via seletor de filhos */
+	font-family: Comic Sans, sans-serif;
+	}
+	
+	
+	#i101 {
+	/* usando qualquer seletor à sua escolha */
+	font-family: Comic Sans, sans-serif;
+	}
+	
+	
 	
 	a, a:link, a:visited, a:hover, a:active { text-decoration: none; color: #0f3; }
 
