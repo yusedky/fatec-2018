@@ -18,7 +18,7 @@ body div {
 
 -----------------------------------------------------
 
-### Seletores de filhos:
+### Seletor de filhos:
 ```
 ul > li {
 }
@@ -44,7 +44,7 @@ u.classp > li > a.linkp {
 
 -----------------------------------------------------
 
-### Seletor de irmão:
+### Seletor de irmãos:
 ```
 h1 ~ ul {
 } 
