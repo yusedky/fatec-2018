@@ -35,8 +35,7 @@
 
 	
 		/* NF [010] via seletor de filhos adjacentes */
-	span + em {
-		color: #ac00f7;
+	title + class {
 		font-size: 100px;
 	}
 		
@@ -54,7 +53,7 @@
 	em[style] { color: #f70000; }
 	
 		/* F[909] insira, via pseudoelemento, o 910 */
-	p + p > :last-child { font-size: 15px; }
+	p + p > :last-child:after { content: " 910"; }
 	
 	a, a:link, a:visited, a:hover, a:active { text-decoration: none; color: #0f3; }
 
