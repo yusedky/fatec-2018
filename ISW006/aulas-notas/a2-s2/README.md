@@ -78,7 +78,7 @@ background-color: yellow;
 
 ### Pseudo-classes:
 ```
-ul li:first-child{
+ul li:first-child {
 }
 ```
 → pela o primeiro filho `li` dentro de `ul`
