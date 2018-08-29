@@ -2,7 +2,9 @@
 
 A partir do código fornecido, selecione, através dos
 seletores estudados neste encontro, os seguintes
-elementos ou conteúdos. Importante: você poderá promover,
+elementos ou conteúdos. 
+
+**Importante:** você poderá promover,
 a seu critério, caso seja efetivamente necessário (portanto,
 analise atentamente o código), alterações que lhe proporcionem
 atingir os elementos ou conteúdos solicitados.
