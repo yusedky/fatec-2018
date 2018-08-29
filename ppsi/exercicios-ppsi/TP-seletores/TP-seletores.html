@@ -45,13 +45,31 @@
 	
 	
 		/* NF [010] via seletor de filhos adjacentes */
-	p + .c010 {
+	#i101 + .c010 {
 	font-size: 12px;
 	}
 	
 
+		/* F [210] e [310], simultaneamente, através de seletor de atributos */
+	a[href="#"] {
+	font-size: 20px;
+	}
+	
+		/* F [710] usando qualquer seletor à sua escolha */
+	#i710 {
+	color: #fff;
+	}
 	
 	
+		/* [810] usando qualquer seletor à sua escolha */
+	em[style] {
+	font-size: 100px;
+	}
+	
+		/* [909] insira, via pseudoelemento, o 910 */
+	div : nth-child {
+	color: #f70000;
+	}
 	
 	a, a:link, a:visited, a:hover, a:active { text-decoration: none; color: #0f3; }
 
