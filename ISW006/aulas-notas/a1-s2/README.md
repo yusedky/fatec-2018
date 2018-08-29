@@ -42,4 +42,4 @@
 
 **De linha** → alinhado lado à lado por padrão (ex: *strong, em, a, img, ...* ).
 
-**Propriedade** `display` → permite alterar elementos de nível (ex: *inline, block, none, float* ).
+**Propriedade** `display` → permite alterar elementos de nível (ex: *inline, block, none, float* ). 
