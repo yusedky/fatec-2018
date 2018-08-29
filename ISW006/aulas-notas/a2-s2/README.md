@@ -1,38 +1,16 @@
-## Notas básicas
-`<!-- anotações html -->`
+## Aula 2 - Semestre 2
 
-`src="#"` → source
+### Árvore de seletor descendente:
 
-`alt="#"` → texto alternativo que serve para descrever as imagens caso elas não carregem ou precise ser lida para cegos.
+![arvore-seletor-descente](http://www3.ifrn.edu.br/~alexandregomes/design_web/css-parte_3/arvore.png)
 
-`<a>` → ancora, inicio para qualquer link.
-  
-`<img>` → imagem
+* `li` e `li` são exemplos de irmão adjacentes (ficam lado a lado dentro do html).
+* `p` e `blockquote` são exemplos de irmãos tradicionais (filhos de uma mesma tag pai).
 
-`<h1>` ... `<h6>` → do maior tamanho para o menor, é o responsável pelo nível de importância do texto.
+### Descendência:
+```
+body div { 
+} 
+```
+→ funciona para todos os elementos de descendência (ex: *filho, neto, bisneto, ...* )
 
-`<p>` → paragrafo
-
-`<br>` → pula linha (quebra de linha/break)
-
-`<stronge>` → negrito
-
-`<em>` → itálico (ênfase)
-
-## Listas
-
-`<ul>` → lista não-ordenada (unordered list)
-
-`<ol>` → lista ordenada (ordered list)
-
-`<li>` → item da lista (list item)
-
-### Lista ordenada
-1. Item 1
-2. Item 2
-3. Item 3
-
-### Lista não-ordenada
-* Item 1
-* Item 2
-* Item 3
