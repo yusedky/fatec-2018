@@ -64,3 +64,21 @@ background-color: yellow;
 }
 ```
 → **todo** `li` descendente de `ul` e exclusivamente filho de `body` terá seu fundo colorido de *amarelo*.
+> Normalmente usado para css reset!
+
+### Pseudo-classes:
+```
+ul li:first-child{
+}
+```
+→ pela o primeiro filho `li` dentro de `ul`
+
+`first-child` → primeiro filho
+`last-child` → ultimo
+`nth-child` → nono
+`first-child(even)` → alterna
+`first-line` → toda a primeira linha
+
+### After / Before:
+
+> em breve mais conteúdo.
