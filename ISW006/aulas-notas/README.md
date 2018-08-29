@@ -1,5 +1,6 @@
 ## Notas básicas
 Para especificação do HTML5 visitar o site da [W3C](https://www.w3.org/TR/html52/).
+
 Para fazer a validação do HTML visitar o [Markup Validation Service](https://validator.w3.org/)
 
 ### HTML (Hypertext Markup Language) → Linguagem de Marcação de Hipertexto
