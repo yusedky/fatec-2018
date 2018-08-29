@@ -13,26 +13,43 @@
 	
 	h1 { display:none; }
 	
-	body h1 {
-	/* via seletor descendente */
+	
+		/* F <h1> via seletor descendente */
+	div h1 {
 	display: block;
 	}
 	
-	body > h1 {
-	/* PAI ODIN ME AJUDA Q ESSA COISA NUM VAI - via seletor de filhos */
-	font-family: Comic Sans, sans-serif;
-	}
-	
-	
-	div .c010{
-	/* via seletor descente */
-	color: #ff009d; 
-	}
-	
+
+		/* F [101] usando qualquer seletor à sua escolha */
 	#i101 {
 	/* usando qualquer seletor à sua escolha */
 	color: #0083f7;
 	}
+	
+		/* F <h1> via seletor de filhos */
+	div > h1 {
+	font-size: 30px;
+	}
+	
+	
+		/* F [010] via seletor descente */
+	div .c010{
+	color: #ff009d; 
+	}
+	
+	
+		/* F [010] via seletor de filhos */
+	p > .c010{
+	font-family: Verdana;
+	}
+	
+	
+		/* NF [010] via seletor de filhos adjacentes */
+	p + .c010 {
+	font-size: 12px;
+	}
+	
+
 	
 	
 	
