@@ -1,4 +1,4 @@
-#TP 2 (PPSI-II)
+# TP 2 (PPSI-II)
 
 A partir do código fornecido, selecione, através dos
 seletores estudados neste encontro, os seguintes
