@@ -15,61 +15,45 @@
 	
 	
 		/* F <h1> via seletor descendente */
-	div h1 {
-	display: block;
-	}
+	div h1 { display: block; }
 	
 
 		/* F [101] usando qualquer seletor à sua escolha */
-	#i101 {
-	/* usando qualquer seletor à sua escolha */
-	color: #0083f7;
-	}
+	#i101 { color: #0083f7;	}
 	
 		/* F <h1> via seletor de filhos */
-	div > h1 {
-	font-size: 30px;
-	}
+	div > h1 { font-size: 30px; }
 	
 	
 		/* F [010] via seletor descente */
-	div .c010{
-	color: #ff009d; 
-	}
+	div .c010{ color: #ff009d; }
 	
 	
 		/* F [010] via seletor de filhos */
-	p > .c010{
-	font-family: Verdana;
-	}
+	p > .c010{ font-family: Verdana; }
 	
+
 	
 		/* NF [010] via seletor de filhos adjacentes */
 	#i101 + .c010 {
-	font-size: 12px;
+		font-size: 12px;
 	}
+		
 	
-
+	
+	
 		/* F [210] e [310], simultaneamente, através de seletor de atributos */
-	a[href="#"] {
-	font-size: 20px;
-	}
+	a[href="#"] { color: #f7f700; }
 	
 		/* F [710] usando qualquer seletor à sua escolha */
-	#i710 {
-	color: #fff;
-	}
+	#i710 { color: #fff; }
 	
 	
 		/* F [810] usando qualquer seletor à sua escolha */
-	em[style] {
-	font-size: 100px;
-	}
+	em[style] { color: #f70000; }
 	
-		/* NF[909] insira, via pseudoelemento, o 910 */
-	div :: nth-child {
-	color: #f70000;
-	}
+		/* F[909] insira, via pseudoelemento, o 910 */
+	p + p > :last-child { font-size: 15px; }
 	
 	a, a:link, a:visited, a:hover, a:active { text-decoration: none; color: #0f3; }
 
