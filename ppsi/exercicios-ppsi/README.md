@@ -1,3 +1,3 @@
-# Padrões de Projetos de Sitios Internet
+# Lista de exercícios e trabalhos propostos em sala.
 
 Algum testo maneiro (ou não) será acrescentado aqui em breve.
