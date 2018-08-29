@@ -7,12 +7,16 @@
 * `li` e `li` são exemplos de irmão adjacentes (ficam lado a lado dentro do html).
 * `p` e `blockquote` são exemplos de irmãos tradicionais (filhos de uma mesma tag pai).
 
+-----------------------------------------------------
+
 ### Descendência:
 ```
 body div { 
 } 
 ```
 → funciona para todos os elementos de descendência (ex: *filho, neto, bisneto, ...* )
+
+-----------------------------------------------------
 
 ### Seletores de filhos:
 ```
@@ -38,6 +42,8 @@ u.classp > li > a.linkp {
 ```
 → comando dado a `ul` de classe `"classp"`, com filho `li`, com um neto `a` de classe `"linkp"`.
 
+-----------------------------------------------------
+
 ### Seletor de irmão:
 ```
 h1 ~ ul {
@@ -50,6 +56,8 @@ h1 + ul {
 }
 ```
 → irmão adjacente só funciona para irmãos que estão ao lado dentro do html.
+
+-----------------------------------------------------
 
 ### Seletor universal:
 ```
@@ -65,6 +73,8 @@ background-color: yellow;
 ```
 → **todo** `li` descendente de `ul` e exclusivamente filho de `body` terá seu fundo colorido de *amarelo*.
 > Normalmente usado para css reset!
+
+-----------------------------------------------------
 
 ### Pseudo-classes:
 ```
@@ -82,6 +92,8 @@ ul li:first-child{
 `first-child(even)` → alterna
 
 `first-line` → toda a primeira linha
+
+-----------------------------------------------------
 
 ### After / Before:
 
