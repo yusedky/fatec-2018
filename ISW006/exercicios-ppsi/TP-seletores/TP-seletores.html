@@ -13,46 +13,34 @@
 	
 	h1 { display:none; }
 	
-	
-		/* F <h1> via seletor descendente */
+		/* <h1> via seletor descendente */
 	div h1 { display: block; }
 	
-
-		/* F [101] usando qualquer seletor à sua escolha */
+		/* [101] usando qualquer seletor à sua escolha */
 	#i101 { color: #0083f7;	}
 	
-		/* F <h1> via seletor de filhos */
+		/* <h1> via seletor de filhos */
 	div > h1 { font-size: 30px; }
 	
-	
-		/* F [010] via seletor descente */
+		/* [010] via seletor descente */
 	div .c010{ color: #ff009d; }
 	
-	
-		/* F [010] via seletor de filhos */
+		/* [010] via seletor de filhos */
 	p > .c010{ font-family: Verdana; }
 	
-
+		/* [010] via seletor de filhos adjacentes */
+	span + span + span { font-size: 100px; }
 	
-		/* NF [010] via seletor de filhos adjacentes */
-	.c007 + span{
-		font-size: 100px;
-	}
-		
-	
-	
-	
-		/* F [210] e [310], simultaneamente, através de seletor de atributos */
+		/* [210] e [310], simultaneamente, através de seletor de atributos */
 	a[href="#"] { color: #f7f700; }
 	
-		/* F [710] usando qualquer seletor à sua escolha */
+		/* [710] usando qualquer seletor à sua escolha */
 	#i710 { color: #fff; }
 	
-	
-		/* F [810] usando qualquer seletor à sua escolha */
+		/* [810] usando qualquer seletor à sua escolha */
 	em[style] { color: #f70000; }
 	
-		/* F[909] insira, via pseudoelemento, o 910 */
+		/* [909] insira, via pseudoelemento, o 910 */
 	p + p > :last-child:after { content: " 910"; }
 	
 	a, a:link, a:visited, a:hover, a:active { text-decoration: none; color: #0f3; }
@@ -70,7 +58,7 @@
 <h1 title="TP">TP</h1>
 
 <p>
-000 001 002 003 004 005 006 <span class="c007">007</span> 008 009 <span class="c010">010 </span>
+000 001 002 003 004 005 006 007 <span></span><span></span>008 009 <span class="c010">010 </span>
 100 <em style="font-style: normal" id="i101">101</em> 102 103 104 105 106 107 108 109 110
 200 201 202 203 204 205 206 207 208 209 <a href="#" title="210">210</a>
 300 301 302 303 304 305 306 307 308 309 <a href="#" title="310">310</a>
